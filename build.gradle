@@ -1,8 +1,10 @@
 plugins {
     id 'java'
 }
+apply plugin: 'java'
+apply plugin: 'maven-publish'
 
-group = 'me.linus41'
+group = 'com.github.Linus-41'
 version = '1.0-SNAPSHOT'
 
 repositories {
